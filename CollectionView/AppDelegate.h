@@ -1,5 +1,5 @@
 //
-//  USKViewController.h
+//  USKAppDelegate.h
 //  CollectionView
 //
 //  Created by ushiostarfish on 2013/08/19.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface USKViewController : UIViewController
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
 
 @end
